@@ -4,329 +4,308 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Store</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-
-        }
-
-
-        nav {
-            background-color: white;
-            overflow: hidden;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 15px;
-            padding: 15px;
-        }
-
-        nav img {
-            width: 50px;
-            height: 50px;
-        }
-
-        nav a {
-            color: gray;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            margin: 5px;
-            align-items: center;
-        }
-
-        nav a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-
-        .logo {
-            max-width: 100px;
-            margin-right: auto;
-            width: 30px;
-            height: 30px;
-        }
-
-        .login-signup {
-            margin-left: auto;
-            padding: 10px;
-            color: rgb(85, 85, 85);
-
-        }
-
-        .ion {
-            display: none;
-        }
-
-        .section1 {
-            padding: 20px;
-            text-align: center;
-            margin: 5px;
-        }
-
-        .section1 h1 {
-            color: rgb(45, 45, 27);
-            font-size: 40px;
-        }
-
-        /* footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1em;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        } */
-        .container {
-            text-align: center;
-            margin-top: 50px;
-        }
-
-        .order-button {
-            background-color: black;
-            color: white;
-            padding: 10px 45px;
-            font-size: 14px;
-            border: none;
-            border-radius: 50px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-
-        .order-button:hover {
-            background-color: #323433;
-            box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-
-        }
-
-        .cln img {
-            width: 600px;
-            height: 400px;
-            margin: 30px;
-        }
-.section2{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 10px;
-    font-family: sans-serif;
-    align-items: center;
-}
-.third h1{
-background-image: linear-gradient(to left, violet, indigo, rgb(17, 198, 218));
-  color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
-}
-.first  h1{
-    font-size: 40px;
-}
-
-.second  h1{
-    font-size: 40px;
-}
-
-.first  p{
-    color: grey;
-}
-
-.second  p{
-    color: grey;
-}
-.section3 h1{
-text-align: center;
-margin: 70px;
-}
-
-
-
-
-
-        @media only screen and (max-width: 600px) {
-            nav {
-                flex-direction: row;
-                text-align: center;
-
-            }
-
-            .login-signup {
-                margin-left: 0;
-                margin-top: 10px;
-                align-items: center;
-                display: none;
-
-            }
-
-            nav a {
-                display: none;
-            }
-
-            .ion {
-                display: flex;
-                color: #323433;
-                align-items: center;
-           }
-           .logo{
-            position: sticky;
-           }
-           .section1 h1 {
-            color: rgb(45, 45, 27);
-            font-size: 20px;
-        }
-        .section1 p{
-            color: rgb(45, 45, 27);
-            font-size: 10px;
-        }
-        .container {
-            text-align: center;
-            margin-top: 0px;
-        }
-
-        .order-button {
-            background-color: black;
-            color: white;
-            padding: 10px 35px;
-            font-size: 10px;
-            border: none;
-            border-radius: 50px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-
-        .order-button:hover {
-            background-color: #323433;
-            box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-
-        }
-        .cln img {
-            width: 250px;
-            height: 160px;
-    margin-right: -5px;
-           
-        }
-
-.section2{
-    flex-direction: column;
-    text-align: center;
-  
-
-}
-.section2 h1{
-    font-size: 20px;
-  }
-.image1{
-    display: flex;
-}
-
-        }
-    </style>
+    <title>Furniture</title>
+    <link rel="stylesheet" href="assets/project.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/icon.jpg">
 </head>
 
 <body>
+    <div class="header">
 
+        <div class="pc">
 
-    <nav>
-        <img src="assets/images/moon.jpg" alt=" Store Logo" class="logo">
-
-
-        <a href="#">About</a>
-        <a href="#">Products</a>
-        <a href="#">Features</a>
-        <a href="#">Contacts</a>
-        <a href="#" class="ion"><ion-icon name="menu-outline"></ion-icon></a>
-
-
-        <div class="login-signup">
-            <ion-icon name="search-outline"></ion-icon>
-            <ion-icon name="bag-handle-outline"></ion-icon>
-            <ion-icon name="cart-outline"></ion-icon>
-        </div>
-    </nav>
-
-    <section class="section1">
-        <h1>Smart technology in<br> your home</h1>
-        <p>Create a space where you'll love to work with an incredible-sounding speaker<br> for music and more that will
-            help you relax,stay motivated and focus</p>
-
-        <div class="container">
-            <button class="order-button">Order &raquo;</button>
+            <img src="assets/images/furniture-logo.jpg">
         </div>
 
-        <div class="cln">
-            <img src="assets/images/colone2.jpg">
+        <div class="search-bar">
+            <form action="search" method="post" class="search-form">
+                <div class="search-container">
+                    <input type="text" name="query" placeholder="Search...">
+                    <button type="submit"><ion-icon name="search-outline"></ion-icon></button>
+                </div>
+            </form>
         </div>
-    </section>
 
-
-
-<section class="section2">
-<div class="first">
-    <h1>60K</h1>
-    <p>Happy clients</p>
-</div>
-
-
-<div class="second">
-    <h1>3K</h1>
-    <p>Premium products</p>
-</div>
-
-
-<div class="third">
-    <h1>&#8226;About us</h1>
-    <p>We offer the latest technologies in audio<br> and provide a wide range of products to<br> meet the needs of every customer.</p>
-</div>
-
-
-</section>
-<hr>
-
-<section class="section3">
-<h1>Our best sellers</h1>
-
-<div class="image1">
-<img src="assets/images/echo_dot.jpg" width="210px" height="160px">
-<h5>Echo Dot (4th Gen)</h5>
-<h6>$100.50</h6>
-</div>
-
-<div class="image2">
-    <img src="assets/images/echo3.jpg" width="210px" height="160px">
-    <h5>Echo Dot (3th Gen)</h5>
-    <h6>$110.20</h6>
+        <div class="icons">
+            <a href="#" class="bag"> <ion-icon name="bag-outline"></ion-icon></a>
+            <a href="#" class="heart"> <ion-icon name="brush-outline"></ion-icon></a>
+            <a href="assets/login.html" class="person"> <ion-icon name="person-outline"></ion-icon></a>
+        </div>
     </div>
-    
+    </div>
+
+    <div class="position">
+        <a href="#"><b>About</b></a>
+        <a href="#"><b>Products</b></a>
+        <a href="#"><b>Contact us</b></a>
 
 
-    <div class="image3">
-        <ion-icon name="heart-outline"></ion-icon>
-        <img src="assets/images/echopop.jpg" width="160px" height="160px">
-        <h5>Amazon Echo</h5>
-        <h6>$99.50</h6>
+    </div>
+
+
+
+
+
+    <div id="mydiv">
+
+        <img src="assets/images/black-center.jpg">
+    </div>
+
+    <div class="text">
+        <p><b>LUXURY<br> FURNITURE</b></p>
+    </div>
+
+    <div class="b0">
+
+
+        <div class="b1">
+            <a href="" class="text-btn">GO TO SHOP</a>
         </div>
 
-        <div class="image4">
-            <img src="assets/images/homepad.jpg" width="180px" height="160px">
-            <h5>Apple HomePad 2</h5>
-            <h6>$310.00</h6>
+        <div class="b2">
+            <a href="" class="text-btn2">SEE COLLECTION</a>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <div class="f_all">
+
+
+        <div class="products">
+            <h1>24000<br> <span class="pdc">PRODUCTS</span></h1>
+
+        </div>
+
+
+        <div class="san1">
+            <p>&#8722;24000<br>products</p>
+        </div>
+
+
+        <div class="san2">
+            <p>&#8722;12<br>years</p>
+        </div>
+    </div>
+
+    <div class="navigation">
+
+        <div class="nav1">
+            <img src="assets/images/ch.webp"><br>
+            <a href="#">Chairs</a>
+        </div>
+
+
+
+
+
+        <div class="nav2">
+            <img src="assets/images/bed.jpg"><br>
+            <a href="#">Beds</a>
+        </div>
+
+
+
+
+
+        <div class="nav3">
+            <img src="assets/images/tableee.jpg"><br>
+            <a href="#">Tables</a>
+        </div>
+
+
+        <div class="nav4">
+            <img src="assets/images/desks.jpg"><br>
+            <a href="#">Desks</a>
+        </div>
+
+
+
+
+
+
+
+        <div class="nav5">
+            <img src="assets/images/black-wardrobe.jpg"><br>
+            <a href="#">Cabinets</a>
+        </div>
+
+
+
+
+        <div class="nav6">
+            <img src="assets/images/lampp.jp[g.jpg"><br>
+            <a href="#">Lights</a>
+        </div>
+
+    </div>
+
+    <br> <br>
+
+    <div class="pictures">
+
+        <div class="pic1">
+            <img src="assets/images/bedrm-design.jpg">
+            <p>Time to</p>
+            <h1>BEDROOM</h1>
+        </div>
+
+
+        <div class="pic2">
+            <img src="assets/images/office-design.jpg">
+            <p>Time to</p>
+            <h1>OFFICE</h1>
+        </div>
+
+
+
+        <div class="pic3">
+            <img src="assets/images/kitchen-design.jpg">
+            <p>Time to</p>
+            <h1>KITCHEN</h1>
+        </div>
+
+
+    </div>
+    <br>
+
+
+    <div class="winter">
+
+        <div class="img_1">
+            <img src="assets/images/img4.jpg">
+        </div>
+
+        <div class="get">
+            <h1>GET READY<br> FOR A WINTER</h1>
+            <p>Dreams come true with us</p>
+
+            <br>
+            <a href="#">ACTUAL TRENDS</a>
+        </div>
+    </div>
+
+
+    <h1 class="obs">Our best sellers</h1>
+
+
+    <div class="bests">
+
+        <div class="top1">
+            <img src="assets/images/cecila.jpg">
+            <p>Cecila 8- Light Pendant</p>
+        </div>
+
+        <div class="top2">
+            <img src="assets/images/Retractable.jpg">
+            <p>Modern Gray Retractable <br>TV Stand</p>
+        </div>
+
+        <div class="top3">
+            <img src="assets/images/bianca.jpg">
+            <p>Bianca-6 Light Pendant</p>
+        </div>
+    </div>
+
+
+
+
+    <div class="sellers">
+        <div class="top4">
+            <img src="assets/images/logan.jpg">
+            <p>Chair STOOL<br> GROUP Logan</p>
+        </div>
+
+
+        <div class="top5">
+            <img src="assets/images/chic.jpg">
+            <p>Modern Chic Round Nesting<br> Coffee Table </p>
+        </div>
+
+
+        <div class="top6">
+            <img src="assets/images/parigi.jpg">
+            <p>Parigi Armchair</p>
+        </div>
+    </div>
+    <div class="linkk">
+        <a href="">GO TO SHOP</a>
+    </div>
+    <br><br><br>
+
+
+    <div class="partner">
+        <h2>FURNITURE partners</h2>
+    </div>
+
+    <div class="company">
+        <p><ion-icon name="logo-amazon"></ion-icon><b>AMAZON</b></p>
+        <p><ion-icon name="diamond-outline"></ion-icon>DiAmOnD</p>
+        <p><ion-icon name="home-outline"></ion-icon>
+            <c>HOME design</c>
+        </p>
+        <p><ion-icon name="home-outline"></ion-icon><span class="bdha">BDHA</span></p>
+        <p><ion-icon name="cloud-outline"></ion-icon><b>cloud minimalism</b></p>
+    </div>
+    <br><br><br>
+    <hr>
+    <div class="icn">
+        <img src="assets/images/furniture-logo.jpg">
+    </div>
+
+    <br><br>
+    <footer>
+
+        <div class="service">
+            <div>
+                <a href=""><img
+                        src="https://www.svgrepo.com/show/401037/furniture-households-interior-lamp-lantern-light.svg">Quality
+                    products and design</a>
+            </div><br>
+            <div>
+                <a href=""> <img src="https://www.svgrepo.com/show/521010/truck-speed.svg"> Fast Delivery</a></a>
+            </div><br>
+            <div>
+                <a href=""><img src="https://www.svgrepo.com/show/345668/customer-service-2.svg">Expert Customer
+                    Service</a>
             </div>
 
+        </div>
+
+        <div class="serv2">
+            <div>
+                <a href="#">Follow to <ion-icon name="logo-instagram"></ion-icon></a>
+            </div>
+            <br>
+            <div>
+                <a href="#">Follow to<ion-icon name="logo-facebook"></ion-icon> </a>
+            </div> <br>
+            <div>
+                <a href="#">Follow to<ion-icon name="logo-twitter"></ion-icon> </a>
+            </div><br>
+            <div>
+                <a href="#">Follow to<ion-icon name="logo-linkedin"></ion-icon> </a>
+            </div>
+
+        </div>
 
 
+        <div class="serv3">
+            <div>
+                <a href=""><ion-icon name="location-outline"></ion-icon>Our Location</a>
+            </div><br>
+            <div>Almaty,Kazakhstan</p>
+                <p>Maulenova s.92</p>
+                <p>999-888-777</p>
 
-</section>
+            </div>
+        </div>
+
+    </footer>
+
+    <br><br><br>
 
 
-
-
-
-
-    <!-- <footer>
-       its store
-    </footer> -->
 
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
