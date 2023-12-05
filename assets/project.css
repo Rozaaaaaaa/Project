@@ -10,9 +10,6 @@ body {
 
 }
 
-
-
-
 .search-form {
     margin-top: 10px;
     border-style: ridge;
@@ -52,9 +49,6 @@ button {
     display: none;
 }
 
-
-
-
 .nav {
     display: flex;
     justify-content: space-around;
@@ -76,10 +70,6 @@ button {
     color: rgb(88, 84, 84);
 }
 
-
-
-
-
 /* center image */
 
 #container1 {
@@ -99,7 +89,7 @@ button {
 
 /*buttons and more */
 
-.container1-text{
+.container1-text {
     position: absolute;
     top: 190px;
     left: 60px;
@@ -267,11 +257,13 @@ button {
     align-items: center;
 
 }
+
 .obs {
     text-align: center;
     padding: 60px 0px;
     font-size: 40px;
 }
+
 .chapter img {
     width: 70px;
     height: 60px;
@@ -285,12 +277,12 @@ button {
 
 }
 
-.chapter2  img {
+.chapter2 img {
     width: 70px;
     height: 60px;
 }
 
-.chapter2  a {
+.chapter2 a {
     text-decoration: none;
     color: white;
 }
@@ -310,7 +302,7 @@ button {
 .top3 {
     text-align: center;
     padding: 20px 20px;
-    
+
 }
 
 .top4 {
@@ -347,79 +339,69 @@ button {
     color: black;
 }
 
-.section-chairs{
+.section-chairs {
     justify-content: space-between;
     text-align: center;
 }
-.section-chairs img{
+
+.section-chairs img {
     width: 150px;
     height: 100px;
 }
-.section-chairs a{
+
+.section-chairs a {
     text-decoration: none;
     color: white;
     border-radius: 10px;
     background-color: black;
     padding: 10px 10px;
 }
-    .section-first-chair{
 
-        border-radius: 10px ;
-        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.234);
-        padding: 10px 20px;
-    }
-.section-second-chair{
+.section-first-chair {
 
- 
-    border-radius: 10px ;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.234);
+    padding: 10px 20px;
+}
+
+.section-second-chair {
+
+
+    border-radius: 10px;
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.234);
     padding: 20px 20px;
 
 }
 
-
-
-
 /* main-div and containers  */
 
-.main-text a{
+.main-text a {
     text-decoration: none;
-    border-radius: 10px ;
+    border-radius: 10px;
     color: white;
     background-color: black;
     padding: 10px 10px;
-    
+
 }
-.container{
+
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
 
 }
-.container img{
+
+.container img {
     border-radius: 50%;
 }
 
-.image-container img{
+.image-container img {
     width: 50px;
 
 }
 
 /* main-div and containers  */
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -433,7 +415,7 @@ button {
     .header-text p {
         font-family: 'Dhurjati', sans-serif;
         font-size: 40px;
-margin: 0px;
+        margin: 0px;
     }
 
     .search-form {
@@ -501,9 +483,6 @@ margin: 0px;
         color: black;
     }
 
-
-
-
     #container1 {
         height: 500px;
         width: 1300px;
@@ -511,7 +490,6 @@ margin: 0px;
         border: 15px solid transparent;
         border-radius: 15px;
         margin: 15px 80px;
-
 
     }
 
@@ -521,9 +499,9 @@ margin: 0px;
         border-radius: 15px;
     }
 
-    /* huhuh */
+    /* containers */
 
-    .container1-text{
+    .container1-text {
         position: absolute;
         top: 240px;
         left: 230px;
@@ -607,6 +585,7 @@ margin: 0px;
         background-color: rgb(255, 255, 255);
         width: 65px;
         padding: 10px 10px;
+        /*  first height,second width.   if we have 20px 30px 40px - first-үсті,екі шетіб асты */
         box-shadow: 0 12px 16px 0 rgba(169, 165, 165, 0.24);
 
     }
@@ -643,6 +622,7 @@ margin: 0px;
         background-color: rgb(255, 255, 255);
         width: 65px;
         padding: 10px 10px;
+        /*  first height,second width.   if we have 20px 30px 40px - first-үсті,екі шетіб асты */
         box-shadow: 0 12px 16px 0 rgba(169, 165, 165, 0.24);
 
     }
@@ -651,6 +631,7 @@ margin: 0px;
         display: flex;
         justify-content: space-evenly;
         padding: 20px 120px;
+        /*  first height,second width.   if we have 20px 30px 40px - first-үсті,екі шетіб асты */
 
     }
 
@@ -707,7 +688,7 @@ margin: 0px;
         color: white;
     }
 
-    .img-txt{
+    .img-txt {
         display: flex;
         justify-content: space-evenly;
         padding: 10px 380px;
@@ -748,33 +729,29 @@ margin: 0px;
     .chapter img {
         width: 130px;
         height: 120px;
-
-
     }
 
-  .best-sellers {
+    .best-sellers {
         text-align: center;
         padding: 60px 0px;
         font-size: 40px;
     }
-    .chapter2  {
+
+    .chapter2 {
         display: flex;
         justify-content: space-evenly;
         padding: 20px 350px;
     }
 
-    .chapter2  img {
+    .chapter2 img {
         width: 130px;
         height: 120px;
     }
 
-    .chapter2  a {
+    .chapter2 a {
         text-decoration: none;
         color: white;
     }
-
-  
-
 
     .top1 {
         box-shadow: 0 12px 16px 0 rgba(249, 233, 233, 0.24);
@@ -839,238 +816,119 @@ margin: 0px;
 
     /* sections for two chairs */
 
-.section-text{
-    text-align: center;
-}
+    .section-text {
+        text-align: center;
+    }
 
+    .section-chairs {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 20px 20px;
+    }
 
-.section-chairs{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 20px 20px;
-   
+    .section-chairs a {
+        text-decoration: none;
+        color: white;
+        border-radius: 10px;
+        background-color: black;
+        padding: 10px 10px;
+    }
 
-}
-.section-chairs a{
-    text-decoration: none;
-    color: white;
-    border-radius: 10px;
-    background-color: black;
-    padding: 10px 10px;
-}
+    .section-chairs img {
+        width: 250px;
+        height: 199px;
+    }
 
-.section-chairs img{
-    width: 250px;
-    height: 199px;
-}
+    .section-first-chair {
+        display: flex;
+        border-radius: 10px;
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.234);
+        padding: 20px 20px;
+    }
 
-.section-first-chair{
-    display: flex;
-border-radius: 10px ;
-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.234);
-padding: 20px 20px;
-}
+    .section-second-chair {
+        display: flex;
+        border-radius: 10px;
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.234);
+        padding: 20px 20px;
 
-.section-second-chair{
-    display: flex;
-    border-radius: 10px ;
-    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.234);
-    padding: 20px 20px;
+    }
 
-}
     /* sections for two chairs  */
 
 
+    /*main and  container*/
+    .main-div {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
 
+    .container {
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+    }
 
+    .container img {
+        border-radius: 70%;
+    }
 
+    .container span {
+        font-size: 20px;
+        margin-right: 15px;
+    }
 
-/*main and  container*/
-.main-div{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
 
+    /*main and  containers */
 
 
 
-.container {
-    border-radius:50%;
-
-   display: flex;
-align-items: center;
-  }
-  .container img {
-    border-radius: 70%;
-  }
-   .container span {
-    font-size: 20px;
-    margin-right: 15px;
-  }
- /*main and  containers */
-  
-
-
-
-
-
-
-
-/* image with text  */
-.image-text  p{
-    text-align: center;
-
-}
-.image-text  h2{
-    text-align: center;
-
-}
-.image-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 5px 120px;
-}
-.imagess img{
-    width: 280px;
-    height: 220px;
-border-radius: 20px;
-
-}
-
-/* image with text  */
-
-
-
-
-
-
-
-
-
-
- /* footer hereeeee */
-footer{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: rgb(251, 251, 251);
-    border-radius: 20px;
-    padding: 30px 20px;
-}
-
-
-footer p {
-
-      font-family: 'Dhurjati', sans-serif;
-        font-size: 40px;   
- 
-}
-footer a{
-    text-decoration: none;
-    color: black;
-}
-.secondary-footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
- 
- /* footer hereeeee */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /* .partner {
+    /* image with text  */
+    .image-text p {
         text-align: center;
 
     }
 
-    .company {
+    .image-text h2 {
+        text-align: center;
+
+    }
+
+    .image-container {
         display: flex;
-        justify-content: space-evenly;
-        padding: 0px 160px;
         align-items: center;
+        justify-content: space-evenly;
+        padding: 5px 120px;
+    }
+
+    .imagess img {
+        width: 280px;
+        height: 220px;
+        border-radius: 20px;
 
     }
 
-    .bdha {
-        font-family: cursive;
-    }
+    /* image with text  */
 
+
+    /* footer hereeeee */
     footer {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        background-color: rgb(251, 251, 251);
+        border-radius: 20px;
+        padding: 30px 20px;
+    }
+
+
+    footer p {
+
+        font-family: 'Dhurjati', sans-serif;
+        font-size: 40px;
+
     }
 
     footer a {
@@ -1078,31 +936,14 @@ footer a{
         color: black;
     }
 
-    .service {
-        
+    .secondary-footer {
+        display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
-    }
-
-    .service img {
-        width: 30px;
-        height: 30px;
-    }
-
-    .service a {
-        text-decoration: none;
-        color: black;
         align-items: center;
     }
 
-    .icn img {
-        width: 160px;
-        height: 30px;
-    }
 
-    .serv2 {
-        flex-direction: column;
+    /* footer hereeeee */
 
-    } */
 
 }
